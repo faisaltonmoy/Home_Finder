@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hs1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="387dp"
+        android:layout_x="2dp"
+        android:layout_y="16dp">
+
+        <ImageView
+            android:id="@+id/hs4id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hs4" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/hs5id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hs5" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/hs6id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hs6" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/hs7id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hs7" />
+
+
+
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="25dp"
+        android:text="All Included"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:layout_x="0dp"
+        android:layout_y="417dp" />
+
+
+</AbsoluteLayout>

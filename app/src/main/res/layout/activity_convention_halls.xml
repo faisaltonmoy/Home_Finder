@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ch"
+    tools:context=".conventionHalls">
+
+    <TableRow
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_span="4"
+            android:fontFamily="@font/amaranth"
+            android:text="Convention Halls"
+            android:textColor="#303030"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/title1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#B0B0B0"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/amaranth"
+            android:text="Descriptions"
+            android:textColor="#303030"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Area"
+            android:textColor="#303030"
+            android:textSize="20sp"
+            android:fontFamily="@font/amaranth"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Fare"
+            android:textColor="#303030"
+            android:textSize="16sp"
+            android:fontFamily="@font/amaranth"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Details"
+            android:textColor="#303030"
+            android:textSize="16sp"
+            android:fontFamily="@font/amaranth"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/title2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#B0B0B0"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/amaranth"
+            android:text="1000 people"
+            android:textAlignment="center"
+            android:textColor="#303030"
+            android:textSize="15sp"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="PSC,Mirpur"
+            android:textAlignment="center"
+            android:textColor="#303030"
+            android:textSize="15sp"
+            android:fontFamily="@font/amaranth"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="1.10Lac"
+            android:textAlignment="center"
+            android:textColor="#303030"
+            android:textSize="15sp"
+            android:fontFamily="@font/amaranth"
+            />
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:fontFamily="@font/amaranth"
+            android:text="View"
+            android:textAlignment="center"
+            android:textColor="#303030"
+            android:textSize="15sp" />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/title3"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#B0B0B0"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="@font/amaranth"
+            android:text="1200 people"
+            android:textAlignment="center"
+            android:textColor="#303030"
+            android:textSize="15sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Officer's Club"
+            android:textAlignment="center"
+            android:textColor="#303030"
+            android:textSize="15sp"
+            android:fontFamily="@font/amaranth" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="1.50Lac"
+            android:textAlignment="center"
+            android:textColor="#303030"
+            android:textSize="15sp"
+            android:fontFamily="@font/amaranth" />
+
+        <TextView
+
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:textAlignment="center"
+            android:textColor="#303030"
+            android:textSize="15sp"
+            android:fontFamily="@font/amaranth" />
+
+
+    </TableRow>
+
+</TableLayout>

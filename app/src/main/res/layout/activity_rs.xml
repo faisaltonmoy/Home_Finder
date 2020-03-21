@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rs">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="387dp"
+        android:layout_x="2dp"
+        android:layout_y="16dp">
+
+        <ImageView
+            android:id="@+id/rs1id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rs1" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/rs2id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rs2" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/rs3id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rs3" />
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/rs4id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rs4" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/rs5id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rs5" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/rs6id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rs6" />
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/rs7id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rs7" />
+
+
+
+
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:padding="25dp"
+        android:text="Rent only"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:layout_x="0dp"
+        android:layout_y="417dp" />
+
+
+</AbsoluteLayout>
