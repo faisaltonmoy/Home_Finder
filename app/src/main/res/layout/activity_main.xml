@@ -42,6 +42,7 @@
             />
 
         <EditText
+            android:id="@+id/nameid"
             android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -76,10 +77,12 @@
             />
 
         <EditText
+            android:id="@+id/emailid"
             android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:inputType="textEmailAddress"
+            android:textAllCaps="false"
             android:textAlignment="center"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -111,6 +114,7 @@
             />
 
         <EditText
+            android:id="@+id/phoneid"
             android:layout_width="230dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"

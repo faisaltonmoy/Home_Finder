@@ -2,6 +2,9 @@ package com.example.homefinder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,13 +14,39 @@ import android.widget.Toast;
 public class Second extends AppCompatActivity {
 
     private Button button1,button2,button3,button4,button5;
+    private long backpressed;
+    private Toast toast;
+
+    @Override
+    public void onBackPressed() {
+
+        final AlertDialog.Builder exit = new AlertDialog.Builder(Second.this);
+        exit.setMessage("Are you sure to exit this app?");
+        exit.setCancelable(true);
+        exit.setNegativeButton("No", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+        exit.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                finish();
+            }
+        });
+
+        AlertDialog alert = exit.create();
+        alert.show();
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        button1 = (Button) findViewById(R.id.button2);
+        button1 = (Button) findViewById(R.id.Hostel);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
