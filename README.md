@@ -1,5 +1,5 @@
-# MyApp
+# Home Finder
 
-Student Id: 170204025
+Mini project for assignment
 
-Lab Section: A1
+Aust Cse
